@@ -1,10 +1,13 @@
+
 <div class="container smallfooter">
+  <hr>
   <div class="row">
     <div class="col-md-4">
       <h2>{{ site.title }}</h2>
       <ul>
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>&copy; {{ site.time | date: "%Y" }}</li>
       </ul>
     </div>
 
