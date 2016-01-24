@@ -3,6 +3,7 @@ _order/
 _site/
 .sass-cache/
 .jekyll-metadata
+README.md
 
 # Compiled source #
 ###################
