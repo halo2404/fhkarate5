@@ -1,0 +1,30 @@
+---
+layout: page
+title: Literatur
+---
+<div class="container">
+	<div class="table-responsive">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Titel</th>
+					<th>Autor</th>
+					<th>ISBN</th>
+					<th>Verlag</th>
+					<th>Buchcover</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for book in site.data.literatur %}
+				<tr>
+					<td>{{ book.title }}</td>
+					<td>{{ book.author }}</td>
+					<td>{{ book.isbn }}</td>
+					<td>{{ book.verlag }}</td>
+					<td>{{ site.baseurl }} {{ book.img }}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+<div>

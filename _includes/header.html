@@ -12,15 +12,18 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active">
-              {% for my_page in site.pages %}
-                {% if my_page.title %}
-                  <a class="page-link" href="{{ site.baseurl }}/home.html">{{ my_page.title }}</a>
-                {% endif %}
-              {% endfor %}
-            </li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="{% if site.baseurl == '/index.html' %}active{% endif %}"><a href="{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/news.html">News</a></li>
+            <li><a href="{{ site.baseurl }}/karate.html">Karate</a></li>
+            <li><a href="{{ site.baseurl }}/trainer.html">Trainer</a></li>
+            <li><a href="{{ site.baseurl }}/zeiten.html">Zeiten</a></li>
+            <li><a href="{{ site.baseurl }}/anfahrt.html">Anfahrt</a></li>
+            <li><a href="{{ site.baseurl }}/bilder.html">Bilder</a></li>
+            <li><a href="{{ site.baseurl }}/termine.html">Termine</a></li>
+            <li><a href="{{ site.baseurl }}/literatur.html">Literatur</a></li>
+            <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
+            <li><a href="{{ site.baseurl }}/kontakt.html">Kontakt</a></li>
+            <li><a href="{{ site.baseurl }}/impressum.html">Impressum</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

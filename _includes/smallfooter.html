@@ -1,20 +1,11 @@
+
 <div class="container smallfooter">
+  <hr>
   <div class="row">
-    <div class="col-md-4">
-      <h2>{{ site.title }}</h2>
-      <ul>
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      </ul>
-    </div>
-
-    <div class="col-md-4">
-      <p>{{ site.description }}</p>
-    </div>
-
-    <div class="col-md-4">
-      <p>{{ site.description }}</p>
+    <div class="col-md-12">
+      <p>Hochschulsport &middot; Abt. Karate<br>
+        Copyright &copy; {{ site.time | date: "%Y" }} &middot; All rights reserved &middot;
+        <a href="{{ site.url }}">{{ site.title }}</a></p>
     </div>
   </div>
-
 </div>
