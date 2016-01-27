@@ -3,4 +3,31 @@ layout: page
 title: Links
 ---
 
-{{ content }}
+<h3>Haftungshinweis:</h3>
+<p><b>Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links
+Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</b></p>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-hover">
+			    <thead>
+					<tr>
+						<th>Logo</th>
+						<th>URL-Adresse</th>
+						<th>Beschreibung</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for link in site.data.links %}
+					<tr>
+						<td><img src="{{ site.baseurl }}/images/links/{{ link.logo }}"></td>
+						<td><a href="http://{{ link.url }}" alt="{{ link.url }}">{{ link.url }}</a></td>
+						<td>{{ link.description }}</td>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

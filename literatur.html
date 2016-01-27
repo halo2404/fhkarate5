@@ -3,28 +3,32 @@ layout: page
 title: Literatur
 ---
 <div class="container">
-	<div class="table-responsive">
-		<table class="table table-hover">
-			<thead>
-				<tr>
-					<th>Titel</th>
-					<th>Autor</th>
-					<th>ISBN</th>
-					<th>Verlag</th>
-					<th>Buchcover</th>
-				</tr>
-			</thead>
-			<tbody>
-				{% for book in site.data.literatur %}
-				<tr>
-					<td>{{ book.title }}</td>
-					<td>{{ book.author }}</td>
-					<td>{{ book.isbn }}</td>
-					<td>{{ book.verlag }}</td>
-					<td>{{ site.baseurl }} {{ book.img }}</td>
-				</tr>
-				{% endfor %}
-			</tbody>
-		</table>
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<div class="table-responsive">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>Titel</th>
+							<th>Autor</th>
+							<th>ISBN</th>
+							<th>Verlag</th>
+							<th>Buchcover</th>
+						</tr>
+					</thead>
+					<tbody>
+					{% for book in site.data.literatur %}
+						<tr>
+							<td><strong><a href=""http://www.amazon.de/gp/search/ref=sr_adv_b/?__mk_de_DE=%C3%85M%C3%85Z%C3%95%C3%91&search-alias=stripbooks&unfiltered=1&field-isbn={{ book.isbn }}&sort=relevancerank&Adv-Srch-Books-Submit.x=61&Adv-Srch-Books-Submit.y=9"" target="_blank">{{ book.title }}</a></strong></td>
+							<td>{{ book.author }}</td>
+							<td>{{ book.isbn }}</td>
+							<td>{{ book.verlag }}</td>
+							<td><a href="http://www.amazon.de/gp/search/ref=sr_adv_b/?__mk_de_DE=%C3%85M%C3%85Z%C3%95%C3%91&search-alias=stripbooks&unfiltered=1&field-isbn={{ book.isbn }}&sort=relevancerank&Adv-Srch-Books-Submit.x=61&Adv-Srch-Books-Submit.y=9" target="_blank"><img src="{{ site.baseurl }} {{ book.img }}" width="75"></a></td>
+						</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
-<div>
+</div>

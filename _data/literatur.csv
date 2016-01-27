@@ -1,18 +1,19 @@
-title,author,isbn,verlag,img
-Karate-Do - Mein Weg,Gichin Funakoshi,3921508940,,/images/books/funakoshi.jpg
-Fighting Techniques,Hirozuka Kanazawa,4770028725,,/images/books/Kanazawa3.jpg
-Shotokan-Kata bis zum Schwarzgurt,Fiore Tartaglia,3980908100,,/images/books/kata1.jpg
-Shotokan-Kata ab dem Schwarzgurt,Fiore Tartaglia,3980908119,,/images/books/kata2.jpg
-Bunkai der Shotokan-Kata bis zum Schwarzgurt,Fiore Tartaglia,3980908127,,/images/books/bunkai1.jpg
-Bunkai der Shotokan-Kata ab dem Schwarzgurt,Fiore Tartaglia,3980908135,,/images/books/bunkai2.jpg
-25 Shotokan Katas,Albrecht Pflüger,,,/images/books/25Kata.jpg
-Karate Grundlagen,Efthimios Karamitsos,3806818630,,/images/books/grundlagen.jpg
-Karate-Do - Die Kunst ohne Waffen zu siegen,Gichin Funakoshi,783492249201,,/images/books/Karate-Do.jpg
-Dynamic Karate,Masatoshi Nakayama,,,/images/books/dynamickarate.jpg
-Karate - Die Kunst der leeren Hand,Hidetaka Nishiyama & Richard C. Brown,,www.schlatt-books.de,/images/books/nishi.jpg
-Karate Fachwort-Lexikon,Herbert Velte,3932576144,,/images/books/lexikon.jpg
-Bassai Dai,Karl Michael Schölz,3939140007,,/images/books/bassai-dai.jpg
-Enzyklopädie des Shotokan-Karate,Schlatt,3937745041,,/images/books/schlatt.jpg
-Gespräche mit dem Meister - Nakayama,Randall G. Hassel,9783937745015,www.schlatt-books.de,/images/books/nakayama_gespr.jpg
-Shotokan Karate International Kata Band 1,Hirokazu Kanazawa,3896870343,,/images/books/kanazawa1.jpg
-Shotokan Karate International Kata Band 2,Hirokazu Kanazawa,3896873814,,/images/books/kanazawa2.jpg
+title,author,isbn,verlag,img,language
+Karate-Do - Mein Weg,Gichin Funakoshi,978-3921508534,Kristkeitz Verlag (1. Januar 2001),/images/books/funakoshi.jpg,Deutsch
+Fighting Techniques,Hirozuka Kanazawa,978-1568365169,Kodansha America Inc<br>Auflage: Reprint (3. Juli 2013),/images/books/Kanazawa3.jpg,Englisch
+Shotokan-Kata bis zum Schwarzgurt,Fiore Tartaglia,978-3980908108,Spectra<br>Auflage: 6. Auflage (2009),/images/books/kata1.jpg,Deutsch
+Shotokan-Kata ab dem Schwarzgurt,Fiore Tartaglia,978-3980908115,Spectra<br>Auflage: 5. Auflage (2007),/images/books/kata2.jpg,Deutsch
+Bunkai der Shotokan-Kata bis zum Schwarzgurt,Fiore Tartaglia,978-3980908122,Spectra<br>Auflage: 5. (2008),/images/books/bunkai1.jpg,Deutsch
+Bunkai der Shotokan-Kata ab dem Schwarzgurt,Fiore Tartaglia,978-3980908139,Spectra<br>Auflage: 5. Auflage (2007),/images/books/bunkai2.jpg,Deutsch
+25 Shotokan Katas,Albrecht Pflüger,978-3806808599,Falken (März 1998),/images/books/25Kata1.jpg,Deutsch
+27 Shotokan Katas,Albrecht Pflüger,978-3937958019,DOKAN-Verlag<br>Auflage: 1.<br>Aufl. (1. Januar 2004),/images/books/27Kata.jpg,Deutsch
+Karate Grundlagen,Efthimios Karamitsos,978-3806818635,Falken (1997),/images/books/grundlagen.jpg,Deutsch
+Karate-Do - Die Kunst ohne Waffen zu siegen,Gichin Funakoshi,978-3492249201,Piper Taschenbuch<br>Auflage: 4 (1. Mai 2007),/images/books/Karate-Do.jpg,Deutsch
+Dynamic Karate,Masatoshi Nakayama,978-1568364131,Kodansha America Inc (Mai 2012),/images/books/dynamickarate.jpg,Englisch
+Karate - Die Kunst der leeren Hand,Hidetaka Nishiyama & Richard C. Brown,978-3937745060,schlatt-books<br>Auflage: 1 (26. Dezember 2006),/images/books/nishi.jpg,Deutsch
+Karate Fachwort-Lexikon,Herbert Velte,978-3932576140,Sensei-Verlag (1999),/images/books/lexikon.jpg,Deutsch
+Bassai Dai,Karl Michael Schölz,978-3939140009,Agil-Verlag<br>Auflage: 1.<br>Aufl. (1. November 2005),/images/books/bassai-dai.jpg,Deutsch
+Enzyklopädie des Shotokan-Karate,Schlatt,978-3937745046,schlatt-books,/images/books/schlatt.jpg,Deutsch
+Gespräche mit dem Meister - Nakayama,Randall G. Hassel,978-39377450155,schlatt-books (21. August 1998),/images/books/nakayama_gespr.jpg,Deutsch
+Shotokan Karate International Kata Band 1,Hirokazu Kanazawa,978-3896870346,VVB Laufersweiler Verlag<br>Auflage: 2 (1. April 2004),/images/books/kanazawa1.jpg,Englisch;Deutsch;Japanisch;Spanisch
+Shotokan Karate International Kata Band 2,Hirokazu Kanazawa,978-3896873811,VVB Laufersweiler Verlag<br>Auflage: unveränd. Neuaufl. (1. April 2004),/images/books/kanazawa2.jpg,Englisch;Deutsch;Japanisch;Spanisch
