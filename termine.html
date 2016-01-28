@@ -16,11 +16,12 @@ title: Termine
 					</tr>
 				</thead>
 				<tbody>
+				{% for termin in site.data.termine %}
 					<tr>
-						<td>John</td>
-						<td>Doe</td>
-						<td>john@example.com</td>
+						<td>{{ termin.from }} - {{ termin.to }}</td>
+						<td>{{ termin.what }} {{ termin.place }} {{ termin.description }} {{ termin.description2 }}</td>
 					</tr>
+					{% endfor %}
 				</tbody>
 			</table>
 		</div>

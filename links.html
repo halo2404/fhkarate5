@@ -21,7 +21,7 @@ Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber veran
 				<tbody>
 					{% for link in site.data.links %}
 					<tr>
-						<td><img src="{{ site.baseurl }}/images/links/{{ link.logo }}"></td>
+						<td><img src="{{ site.baseurl }}/images/links/{{ link.logo }}" width="135"></td>
 						<td><a href="http://{{ link.url }}" alt="{{ link.url }}">{{ link.url }}</a></td>
 						<td>{{ link.description }}</td>
 					</tr>
