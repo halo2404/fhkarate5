@@ -20,11 +20,7 @@ github_username:
 exclude: ['README.md']
 
 # Build settings
-<<<<<<< HEAD
 markdown: kramdown
 #markdown: redcarpet
 #encoding: utf-8
-=======
 #markdown: kramdown
-markdown: redcarpet
->>>>>>> 0a0185e4d42401d672173d09b122f93655890937
